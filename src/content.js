@@ -9,3 +9,5 @@ const html = `
 
 const doc = new DOMParser().parseFromString(html, "text/html")
 document.body.append(doc.body.firstElementChild)
+
+console.log("content.js")
